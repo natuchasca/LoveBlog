@@ -4,6 +4,7 @@
 	p {
 		color: orange;
 		font-size: 50px;
+		font-weight: bold;
 	}
 	span {
 		color: #D77D59;
@@ -13,7 +14,14 @@
 		margin-top: 10px;
 	}
 	.nav-pills > li > a {
-		color: silver;
+		color: silver;			
+		background-color: white;
+	}
+
+	.nav-pills > li > a:hover {
+		color: orange;
 		background-color: white;
 	}
 }
+
+

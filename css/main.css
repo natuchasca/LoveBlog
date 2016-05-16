@@ -1,9 +1,14 @@
+/* @font-face {
+	font-family: 'bebasregular'
+	src: url('../font/bebas__-webfont');
+} */
 .header_area {
   font-size: 20px;
   padding: 10px 0px; }
   .header_area p {
     color: orange;
-    font-size: 50px; }
+    font-size: 50px;
+    font-weight: bold; }
   .header_area span {
     color: #D77D59; }
   .header_area ul {
@@ -11,6 +16,9 @@
     margin-top: 10px; }
   .header_area .nav-pills > li > a {
     color: silver;
+    background-color: white; }
+  .header_area .nav-pills > li > a:hover {
+    color: orange;
     background-color: white; }
 
 footer {
@@ -22,6 +30,16 @@ footer {
 .portada img {
   width: 100%;
   height: auto; }
+
+.main-content {
+  padding: 20px 0px; }
+  .main-content img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 25px; }
+  .main-content p {
+    font-size: 18px; }
 
 /* COLORES */
 .container {
