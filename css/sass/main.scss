@@ -1,10 +1,21 @@
 @import 'helpers/variables.scss';
-@import 'mixims.scss';
-@import 'global.scss';
-@import 'header.scss';
-@import 'footer.scss';
-@import 'home.scss';
-@import 'blog.scss';
-@import 'about.scss';
-@import 'contact.scss';
-@import 'responsive.scss';
+@import 'helpers/mixims.scss';
+@import 'base/global.scss';
+@import 'layout/header.scss';
+@import 'layout/footer.scss';
+@import 'pages/home.scss';
+@import 'pages/blog.scss';
+@import 'pages/about.scss';
+@import 'pages/contact.scss';
+@import 'layout/responsive.scss';
+
+/* COLORES */
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+}
+
+* {
+	font-family: 'Open Sans Condensed';
+}

@@ -1,0 +1,34 @@
+.header_area {
+  font-size: 20px;
+  padding: 10px 0px; }
+  .header_area p {
+    color: orange;
+    font-size: 50px; }
+  .header_area span {
+    color: #D77D59; }
+  .header_area ul {
+    color: black;
+    margin-top: 10px; }
+  .header_area .nav-pills > li > a {
+    color: silver;
+    background-color: white; }
+
+footer {
+  padding: 20px 0px 40px 0px; }
+  footer .social_area ul > li > a {
+    color: black;
+    font-size: 40px; }
+
+.portada img {
+  width: 100%;
+  height: auto; }
+
+/* COLORES */
+.container {
+  width: 100%;
+  max-width: 1200px; }
+
+* {
+  font-family: 'Open Sans Condensed'; }
+
+/*# sourceMappingURL=main.css.map */
