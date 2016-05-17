@@ -9,13 +9,32 @@
 @import 'pages/contact.scss';
 @import 'layout/responsive.scss';
 
-/* COLORES */
+/* COLORES 
+naranjo e76434
+naranjo claro f4ada0
+grey 989898
+*/
 
 .container {
 	width: 100%;
 	max-width: 1200px;
 }
 
-* {
-	font-family: 'Open Sans Condensed';
+*, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'bebasregular';
 }
+
+p {
+	font-size: 18px;
+	font-family: 'HelveticaNeue';
+}
+
+
+li.active {
+	color: $naranjado;
+}
+
+.photo-g {
+		margin: 2px 2px;
+		border: 1px solid $orange;
+	}

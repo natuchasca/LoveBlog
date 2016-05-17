@@ -413,7 +413,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: inherit;
 }
@@ -3557,14 +3557,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
   color: #fff;
-  background-color: #e67e22 !important;
+  background-color: #e67e22;
 }
 
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #e67e22 !important;
+  background-color: #e67e22;
 }
 .nav-pills > li.active > a .caret,
 .nav-pills > li.active > a:hover .caret,

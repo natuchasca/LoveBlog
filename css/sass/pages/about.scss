@@ -1,0 +1,14 @@
+.fotoytexto {
+	.autor {
+		float: left;
+		border: 3px solid white;
+		margin-right: 20px;
+	}
+	blockquote {
+		border-left: 8px solid $orange;
+	}
+	.photo-g {
+		margin: 2px 2px;
+		border: 1px solid $orange;
+	}
+}

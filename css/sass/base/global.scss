@@ -1,4 +1,17 @@
-/* @font-face {
-	font-family: 'bebasregular'
-	src: url('../font/bebas__-webfont');
-} */
+@font-face {
+	font-family: 'bebasregular';
+	src: url("../font/bebas___-webfont.woff");
+}
+
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url("../font/HelveticaNeue.woff")
+}
+
+.orange {
+	color: $orange;
+}
+
+.btn-orange {
+	background-color: $orange;
+}
