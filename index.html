@@ -17,7 +17,7 @@
 				<div class="col-md-2 logo">
 					<a href="#"><p><strong>LOVE</strong><span>BLOG</span></p></a>
 				</div>
-				<div class="col-md-offset-4 col-md-6">
+				<div class="col-md-offset-3 col-md-7 hidden-xs hidden-sm">
 					<ul class="nav nav-pills">
 						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="about.html">About us</a></li>
@@ -26,11 +26,32 @@
 						<li><a href="contact.html">Contact us</a></li>
 					</ul>
 				</div>
+				<div class="col-xs-12 visible-xs hidden-md hidden-lg hidden-sm">
+                    <!-- INICIO MENU XS -->
+                    <nav class="navbar navbar-default" role="navigation">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                  data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Desplegar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                          <ul class="nav navbar-nav">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT US</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="portfolio.html">PORTFOLIO</a></li>
+                            <li><a href="contact.html">CONTACT US</a></li>
+                          </ul>
+                        </div>
+                    </nav>
+                    <!-- FIN MENU XS -->
 			</div>
 		</div>
 	</header>
-	<header class="header_bottom_area"></header>
 	<section class="portada">
+		<div class="color-area"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -67,7 +88,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2><span>From Blog</span></h2>
+					<h3><span class="orange">From Blog</span></h3>
 				</div>
 				<div class="col-md-3">
 					<img src="images/recent1.png" alt=""/>
@@ -104,7 +125,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2><span>Recent Works</span></h2>
+					<h3><span class="orange">Recent Works</span></h3>
 				</div>
 			</div>
 			<div class="row">
@@ -112,7 +133,7 @@
 					<img src="images/recent4.png" alt=""/>
 					<div class="blog_post_meta">
 						<h4 class="post-title">Post title appear here</h4>
-						<h4 class="orange">JUNE 15,2013</h4>
+						<h6 class="orange">JUNE 15,2013</h6>
 					</div>
 				</div>
 				<div class="col-md-3">
@@ -140,21 +161,21 @@
 		</div>
 	</section>
 	<footer>
-		<div class="container">
+		<div class="container footer-orange">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 box-footer">
 					<h2>About Jetro</h2>
 					<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando. </p>
 					<br/>
 					<p>Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 box-footer">
 					<h2>Twitter Widget</h2>
 					<p>@pixelmater What an awesome design with great functionality :)<br/>about 1 hour ago</p><br/>
 					<p>@pixelmater What an awesome design with great functionality :)<br/>about 2 hour ago</p><br/>
 					<p>Follow @bestpsdfreebies</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 box-footer">
 					<h2>Contact us</h2>
 					<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.</p>
 					<br/>
@@ -175,6 +196,9 @@
 	</footer>
 		
 	
-	<script src="js/jquery-min.js"></script>						
+	<script src="js/jquery-min.js"></script>	
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>					
 </body>
 </html>

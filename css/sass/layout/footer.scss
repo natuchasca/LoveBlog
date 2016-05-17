@@ -1,10 +1,22 @@
+/* Footer */
+
 footer {
-	padding: 20px 0px 40px 0px;
-	background-color: $orange;
 	color: white;
+	background-color: $naranjado;
+	.footer-orange {
+		background-color: $orange;
+		padding: 20px 20px 70px 20px;
+	}
+	.box-footer {
+		padding-right: 60px;
+	}
 	.social_area {
 		ul > li > a {
 			font-size: 40px;
+			color: white;
+			&:hover {
+				color: $naranjado;
+			}
 		}
 	}
 	p {

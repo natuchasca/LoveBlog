@@ -1,3 +1,5 @@
+/* header */
+
 .header_area {
 	font-size: 18px;
 	padding: 20px 0px 10px 0px;
@@ -16,19 +18,74 @@
 		color: $grey;			
 		background-color: white;
 	}
-
+	
 	.nav-pills > li > a:hover, 
 	.nav-pills > li.active > a:hover, 
 	.nav-pills > li.active > a:focus {
 		color: $orange;
 		background-color: white;
 	}
+	.nav-pills > li.active > a {
+		color: $naranjado;
+		background-color: white;
+	}
 }
 
 
-.orange-header {
+/* Menu XS */
+
+.navbar-default {
+	background: transparent;
+	border: transparent;
+	color: $orange;
+}
+
+button.navbar-toggle {
 	background-color: $orange;
 	color: white;
+	border: none;
+	margin-top: -70px;
+}
+
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+	border-top: 1px solid $orange;
+}
+
+ul.navbar-nav { 
+	color: white; 
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: $grey;
+}
+
+.navbar-default .navbar-nav > li {
+	color: $orange;
+}
+
+.navbar-default .navbar-nav > 
+li > a:hover, .navbar-default .navbar-nav > 
+li > a:focus {
+	color: white;
+	background-color: $orange;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background-color: $naranjado;
+}
+
+
+
+
+/* Título de cada página - Orange Header */
+.orange-header {
+	background-color: $naranjado;
+	color: white;
 	margin-bottom: 30px;
+	.orange-part {
+		background-color: $orange;
+	}
 }
 

@@ -7,6 +7,7 @@
 @import 'pages/blog.scss';
 @import 'pages/about.scss';
 @import 'pages/contact.scss';
+@import 'pages/portfolio.scss';
 @import 'layout/responsive.scss';
 
 /* COLORES 
@@ -15,26 +16,25 @@ naranjo claro f4ada0
 grey 989898
 */
 
+
+/* Container */
 .container {
-	width: 100%;
+	width: 90%;
 	max-width: 1200px;
+	border-left: 10px solid white;
+	border-right: 10px solid white;
+
 }
 
+
+
+/* Fuentes */
 *, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'bebasregular';
 }
 
 p {
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'HelveticaNeue';
 }
 
-
-li.active {
-	color: $naranjado;
-}
-
-.photo-g {
-		margin: 2px 2px;
-		border: 1px solid $orange;
-	}

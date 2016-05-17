@@ -1,15 +1,86 @@
+/* Iconos BLOG */
+.entrada1 {
+  background-image: url("../images/icon1.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  margin-bottom: 50px; }
+
+.entrada2 {
+  background-image: url("../images/icon2.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  margin-bottom: 50px; }
+
+.entrada3 {
+  background-image: url("../images/icon3.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  margin-bottom: 50px; }
+
+.entrada4 {
+  background-image: url("../images/icon4.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  margin-bottom: 50px; }
+
+.entrada5 {
+  background-image: url("../images/icon5.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  margin-bottom: 50px; }
+
+/* --------- */
+/* FUENTES */
 @font-face {
   font-family: 'bebasregular';
   src: url("../font/bebas___-webfont.woff"); }
 @font-face {
   font-family: 'HelveticaNeue';
   src: url("../font/HelveticaNeue.woff"); }
+/* Clase color con variable color */
 .orange {
   color: #e76434; }
 
+.grey {
+  color: #989898; }
+
+/* botones */
 .btn-orange {
   background-color: #e76434; }
 
+.btn-categorie {
+  background-color: white;
+  color: #989898;
+  font-size: 18px;
+  margin: 0px 20px;
+  margin-top: -10px;
+  padding-top: 10px; }
+  .btn-categorie:hover {
+    background-color: #e76434;
+    color: white; }
+
+/* Parte lateral paginas about, blog y contact us */
+aside h4 {
+  background-image: url("../images/heading-bg.png");
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 20px; }
+  aside h4 span {
+    font-size: 20px;
+    background-color: white;
+    padding: 10px 20px 0px 0px; }
+aside .content {
+  margin-bottom: 30px; }
+  aside .content p {
+    margin-bottom: 2px; }
+  aside .content img {
+    width: 50px;
+    height: auto;
+    margin: 2px 2px;
+    margin: 2px 2px;
+    border: 1px solid #e76434; }
+
+/* header */
 .header_area {
   font-size: 18px;
   padding: 20px 0px 10px 0px; }
@@ -29,25 +100,83 @@
   .header_area .nav-pills > li.active > a:focus {
     color: #e76434;
     background-color: white; }
+  .header_area .nav-pills > li.active > a {
+    color: #f4ada0;
+    background-color: white; }
 
-.orange-header {
+/* Menu XS */
+.navbar-default {
+  background: transparent;
+  border: transparent;
+  color: #e76434; }
+
+button.navbar-toggle {
   background-color: #e76434;
   color: white;
-  margin-bottom: 30px; }
+  border: none;
+  margin-top: -70px; }
 
-footer {
-  padding: 20px 0px 40px 0px;
-  background-color: #e76434;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-top: 1px solid #e76434; }
+
+ul.navbar-nav {
   color: white; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #989898; }
+
+.navbar-default .navbar-nav > li {
+  color: #e76434; }
+
+.navbar-default .navbar-nav >
+li > a:hover, .navbar-default .navbar-nav >
+li > a:focus {
+  color: white;
+  background-color: #e76434; }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #f4ada0; }
+
+/* Título de cada página - Orange Header */
+.orange-header {
+  background-color: #f4ada0;
+  color: white;
+  margin-bottom: 30px; }
+  .orange-header .orange-part {
+    background-color: #e76434; }
+
+/* Footer */
+footer {
+  color: white;
+  background-color: #f4ada0; }
+  footer .footer-orange {
+    background-color: #e76434;
+    padding: 20px 20px 70px 20px; }
+  footer .box-footer {
+    padding-right: 60px; }
   footer .social_area ul > li > a {
-    font-size: 40px; }
+    font-size: 40px;
+    color: white; }
+    footer .social_area ul > li > a:hover {
+      color: #f4ada0; }
   footer p {
     font-size: 14px;
     font-family: 'HelveticaNeue'; }
 
+/* ------------ */
+/* ----HOME---- */
+.portada .color-area {
+  background-color: #f4ada0;
+  height: 70px; }
 .portada img {
-  width: 100%;
-  height: auto; }
+  width: 104%;
+  height: auto;
+  margin-top: -70px;
+  margin-left: -20px;
+  border-left: 10px solid white;
+  border-right: 10px solid white; }
 
 .main-content {
   padding: 20px 0px; }
@@ -56,44 +185,231 @@ footer {
     margin-right: 30px;
     margin-bottom: 15px;
     margin-top: 25px; }
-  .main-content p {
-    font-size: 18px;
-    font-family: 'HelveticaNeue'; }
 
-.from h6 {
-  font-weight: bold; }
+.from, .works {
+  margin-bottom: 50px; }
+  .from h6, .works h6 {
+    font-weight: bold; }
+  .from h3, .works h3 {
+    background-image: url("../images/heading-bg.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    margin-bottom: 50px; }
+    .from h3 span, .works h3 span {
+      font-size: 20px;
+      background-color: white;
+      padding: 10px 50px 0px 0px; }
+  .from img, .works img {
+    width: 100%;
+    height: auto; }
+  .from .blog_post_meta, .works .blog_post_meta {
+    color: #989898;
+    border: 1px solid #CDCDCD;
+    border-top: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .from .blog_post_meta h4, .works .blog_post_meta h4 {
+      margin-bottom: -5px; }
 
-.fotoytexto .autor {
-  float: left;
-  border: 3px solid white;
-  margin-right: 20px; }
-.fotoytexto blockquote {
-  border-left: 8px solid #e76434; }
-.fotoytexto .photo-g {
-  margin: 2px 2px;
-  border: 1px solid #e76434; }
+/* ------------ */
+/* ----BLOG---- */
+.entradas-blog .post, .entradas-blog .quote, .entradas-blog .link {
+  margin-bottom: 50px; }
+.entradas-blog .post img {
+  width: 100%;
+  height: auto;
+  margin-left: -15px;
+  margin-bottom: 20px; }
+.entradas-blog .post p {
+  padding-right: 20px; }
+.entradas-blog .post h5 {
+  margin-bottom: 1px; }
+.entradas-blog .post .p {
+  margin-bottom: 20px; }
+.entradas-blog .quote {
+  background-image: url("../images/quote_bg.png");
+  padding: 30px; }
+  .entradas-blog .quote img {
+    float: left;
+    margin-right: 20px; }
+.entradas-blog .link h4 {
+  margin-bottom: -5px; }
+.entradas-blog .link p {
+  margin-top: 20px; }
+.entradas-blog .link a {
+  color: #989898;
+  font-size: 12px; }
+.entradas-blog .separador {
+  background-image: url("../images/post_border_bg.png");
+  background-repeat: repeat-x;
+  width: 75%;
+  height: 20px;
+  margin-left: -15px; }
+
+.pagination > li > a,
+.pagination > li > span {
+  background-color: #e76434;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 50px; }
+
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px; }
+
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px; }
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #f4ada0;
+  color: white;
+  border-color: #f4ada0; }
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  background-color: #f4ada0;
+  color: white;
+  border-color: #f4ada0; }
+
+/* ------------- */
+/* ----ABOUT---- */
+.fotoytexto {
+  margin-bottom: 50px; }
+  .fotoytexto .about-text {
+    padding-right: 50px; }
+    .fotoytexto .about-text .autor {
+      float: left;
+      background-color: white;
+      width: 30%;
+      height: auto;
+      padding: 3px;
+      border: 1px solid #CDCDCD;
+      margin-right: 20px; }
+    .fotoytexto .about-text blockquote {
+      border-left: 8px solid #e76434;
+      margin: 30px 30px; }
+
+/* --------------- */
+/* ----CONTACT---- */
+.contact {
+  margin-bottom: 50px; }
+  .contact iframe {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 30px; }
+  .contact .address {
+    margin: 20px 0px; }
+  .contact p {
+    margin-bottom: 2px; }
+  .contact .form {
+    margin-left: 50px; }
+    .contact .form input, .contact .form textarea {
+      border: 1px solid #e76434;
+      color: #e76434;
+      width: 80%;
+      font-size: 18px;
+      padding: 10px;
+      margin: 10px 0px; }
+    .contact .form input {
+      width: 60%; }
+    .contact .form button {
+      width: 80%;
+      font-size: 25px;
+      padding-top: 10px; }
+
+/* ----------------- */
+/* ----PORTFOLIO---- */
+.categories {
+  margin-bottom: 50px; }
+  .categories h2 {
+    display: inline;
+    margin-right: 20px; }
+  .categories .tags {
+    display: inline-block; }
+
+.thumbs {
+  margin-bottom: 50px; }
+  .thumbs img {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    height: auto;
+    padding: 3px;
+    border: 1px solid #CDCDCD; }
+  .thumbs .box-img {
+    color: #989898;
+    border: 1px solid #CDCDCD;
+    border-top: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 20px; }
+    .thumbs .box-img h4 {
+      margin-bottom: -5px; }
+
+/* Menu XS */
+.navbar-default {
+  background: transparent;
+  border: transparent;
+  color: #e76434; }
+
+button.navbar-toggle {
+  background-color: #e76434;
+  color: white;
+  border: none;
+  margin-top: -70px; }
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-top: 1px solid #e76434; }
+
+ul.navbar-nav {
+  color: white; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #989898; }
+
+.navbar-default .navbar-nav > li {
+  color: #e76434; }
+
+.navbar-default .navbar-nav >
+li > a:hover, .navbar-default .navbar-nav >
+li > a:focus {
+  color: white;
+  background-color: #e76434; }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #f4ada0; }
 
 /* COLORES 
 naranjo e76434
 naranjo claro f4ada0
 grey 989898
 */
+/* Container */
 .container {
-  width: 100%;
-  max-width: 1200px; }
+  width: 90%;
+  max-width: 1200px;
+  border-left: 10px solid white;
+  border-right: 10px solid white; }
 
+/* Fuentes */
 *, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'bebasregular'; }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'HelveticaNeue'; }
-
-li.active {
-  color: #f4ada0; }
-
-.photo-g {
-  margin: 2px 2px;
-  border: 1px solid #e76434; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,14 +1,22 @@
+/* ------------- */
+/* ----ABOUT---- */
+
 .fotoytexto {
-	.autor {
-		float: left;
-		border: 3px solid white;
-		margin-right: 20px;
-	}
-	blockquote {
-		border-left: 8px solid $orange;
-	}
-	.photo-g {
-		margin: 2px 2px;
-		border: 1px solid $orange;
+	margin-bottom: $margin-bottom;
+	.about-text {
+		padding-right: 50px;
+		.autor {
+			float: left;
+			background-color: white;
+			width: 30%;
+			height: auto;
+			padding: 3px;
+			border: 1px solid $grey-border;
+			margin-right: 20px;
+		}
+		blockquote {
+			border-left: 8px solid $orange;
+			margin: 30px 30px;
+		}
 	}
 }

@@ -1,3 +1,4 @@
+/* FUENTES */
 @font-face {
 	font-family: 'bebasregular';
 	src: url("../font/bebas___-webfont.woff");
@@ -8,10 +9,62 @@
 	src: url("../font/HelveticaNeue.woff")
 }
 
+
+
+/* Clase color con variable color */
 .orange {
 	color: $orange;
 }
 
+.grey {
+	color: $grey;
+}
+
+
+
+/* botones */
 .btn-orange {
 	background-color: $orange;
 }
+.btn-categorie {
+	background-color: white;
+	color: $grey;
+	font-size: 18px;
+	margin: 0px 20px;
+	margin-top: -10px;
+	padding-top: 10px;
+	&:hover {
+		background-color: $orange;
+		color: white;
+	}
+}
+
+
+/* Parte lateral paginas about, blog y contact us */
+aside {
+	h4 {
+		background-image: url("../images/heading-bg.png");
+		background-repeat: repeat-x;
+		background-position: center;
+		margin-bottom: 20px;
+		span {
+			font-size: 20px;
+			background-color: white;
+			padding: 10px 20px 0px 0px;
+		}
+	}
+	.content {
+		margin-bottom: 30px;
+		p {
+			margin-bottom: 2px;
+		}
+		img {
+			width: 50px;
+			height: auto;
+			margin: 2px 2px;
+			margin: 2px 2px;
+			border: 1px solid $orange;
+		}
+	}
+}
+

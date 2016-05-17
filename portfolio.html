@@ -17,20 +17,41 @@
 				<div class="col-md-2 logo">
 					<a href="#"><p><strong>LOVE</strong><span>BLOG</span></p></a>
 				</div>
-				<div class="col-md-offset-4 col-md-6">
+				<div class="col-md-offset-3 col-md-7 hidden-xs hidden-sm">
 					<ul class="nav nav-pills">
-						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="about.html">About us</a></li>
 						<li><a href="blog.html">Blog</a></li>
-						<li class="active"><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
 						<li><a href="contact.html">Contact us</a></li>
 					</ul>
 				</div>
+				<div class="col-xs-12 visible-xs hidden-md hidden-lg hidden-sm">
+                    <!-- INICIO MENU XS -->
+                    <nav class="navbar navbar-default" role="navigation">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                  data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Desplegar navegación</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                          <ul class="nav navbar-nav">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT US</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="portfolio.html">PORTFOLIO</a></li>
+                            <li><a href="contact.html">CONTACT US</a></li>
+                          </ul>
+                        </div>
+                    </nav>
+                    <!-- FIN MENU XS -->
 			</div>
 		</div>
 	</header>
 	<div class="orange-header">
-		<div class="container">
+		<div class="container orange-part">
 			<div class="row">
 				<div class="col-md-12">
 					<h2>PORTFOLIO</h2>
@@ -43,11 +64,13 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h2>Categories:</h2>
-					<button type="button" class="btn btn-primary">ALL</button>
-					<button type="button" class="btn btn-primary">CATEGORY 1</button>
-					<button type="button" class="btn btn-primary">CATEGORY 2</button>
-					<button type="button" class="btn btn-primary">CATEGORY 3</button>
-					<button type="button" class="btn btn-primary">CATEGORY 4</button>
+					<div class="tags">
+						<button type="button" class="btn btn-categorie">ALL</button>
+						<button type="button" class="btn btn-categorie">CATEGORY 1</button>
+						<button type="button" class="btn btn-categorie">CATEGORY 2</button>
+						<button type="button" class="btn btn-categorie">CATEGORY 3</button>
+						<button type="button" class="btn btn-categorie">CATEGORY 4</button>
+					</div>
 				</div>
 			</div>
 		</div>		
@@ -56,66 +79,112 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<img src="images/filter-thumbs/p1.jpg" height="140" width="225" alt="">
+					<img src="images/big/pic1.jpg">
+					<div class="box-img">
+						<h4 class="post-title">WALL-E</h4>
+						<h6 class="orange">RELEASED: 2008</h6>
+					</div>
 				</div>
 				<div class="col-md-3">
-					<img src="images/filter-thumbs/p2.jpg" height="140" width="225" alt="">
+					<img src="images/big/pic2.jpg">
+					<div class="box-img">
+						<h4 class="post-title">UP</h4>
+						<h6 class="orange">RELEASED: 2009</h6>
+					</div>
 				</div>
 				<div class="col-md-3">
-					<img src="images/filter-thumbs/p3.jpg" height="140" width="225" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-					<img src="images/filter-thumbs/p4.jpg" height="140" width="225" alt="">
-				</div>
-				<div class="col-md-3">
-					<img src="images/filter-thumbs/p5.jpg" height="140" width="225" alt="">
+					<img src="images/big/pic3.jpg">
+					<div class="box-img">
+						<h4 class="post-title">CARS 2</h4>
+						<h6 class="orange">RELEASED: 2011</h6>
+					</div>
 				</div>
 				<div class="col-md-3">
-					<img src="images/filter-thumbs/p6.jpg" height="140" width="225" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-					<img src="images/filter-thumbs/p7.jpg" height="140" width="225" alt="">
-				</div>
-				<div class="col-md-3">
-					<img src="images/filter-thumbs/p8.jpg" height="140" width="225" alt="">
-				</div>
-				<div class="col-md-3">
-					<img src="images/filter-thumbs/p9.jpg" alt="">
+					<img src="images/big/pic4.jpg">
+					<div class="box-img">
+						<h4 class="post-title">TOY STORY 3</h4>
+						<h6 class="orange">RELEASED: 2010</h6>
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3">
-					<img src="images/filter-thumbs/p10.jpg" height="140" width="225" alt="">
+					<img src="images/big/pic5.jpg">
+					<div class="box-img">
+						<h4 class="post-title">FINDING NEMO</h4>
+						<h6 class="orange">RELEASED: 2003</h6>
+					</div>
 				</div>
 				<div class="col-md-3">
-					<img src="images/filter-thumbs/p11.jpg" height="140" width="225" alt="">
+					<img src="images/big/pic6.jpg">
+					<div class="box-img">
+						<h4 class="post-title">LORAX WAKAIHA</h4>
+						<h6 class="orange">RELEASED: 2012</h6>
+					</div>
 				</div>
 				<div class="col-md-3">
-					<img src="images/filter-thumbs/p12.jpg" alt="">
+					<img src="images/big/pic7.jpg">
+					<div class="box-img">
+						<h4 class="post-title">HAPPY FEET 2</h4>
+						<h6 class="orange">RELEASED: 2011</h6>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img src="images/big/pic8.jpg">
+					<div class="box-img">
+						<h4 class="post-title">TANGLED</h4>
+						<h6 class="orange">RELEASED: 2010</h6>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<img src="images/big/pic9.jpg">
+					<div class="box-img">
+						<h4 class="post-title">KUNG FU PANDA 2</h4>
+						<h6 class="orange">RELEASED: 2011</h6>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img src="images/big/pic10.jpg">
+					<div class="box-img">
+						<h4 class="post-title">MADAGASCAR 3</h4>
+						<h6 class="orange">RELEASED: 2012</h6>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img src="images/big/pic11.jpg">
+					<div class="box-img">
+						<h4 class="post-title">RANGO</h4>
+						<h6 class="orange">RELEASED: 2011</h6>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<img src="images/big/pic12.jpg">
+					<div class="box-img">
+						<h4 class="post-title">SHREK FOREVER AFTER</h4>
+						<h6 class="orange">RELEASED: 2010</h6>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<footer>
-		<div class="container">
+		<div class="container footer-orange">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 box-footer">
 					<h2>About Jetro</h2>
 					<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando. </p>
 					<br/>
 					<p>Pro et erant delicata, eu vim essent imperdiet accommodare, dictas deseruisse ius an. Solet everti definitionem id ius, sonet oporteat cu vim.</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 box-footer">
 					<h2>Twitter Widget</h2>
 					<p>@pixelmater What an awesome design with great functionality :)<br/>about 1 hour ago</p><br/>
 					<p>@pixelmater What an awesome design with great functionality :)<br/>about 2 hour ago</p><br/>
 					<p>Follow @bestpsdfreebies</p>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 box-footer">
 					<h2>Contact us</h2>
 					<p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri.</p>
 					<br/>
@@ -134,5 +203,11 @@
 			</div>
 		</div>
 	</footer>
+		
+	
+	<script src="js/jquery-min.js"></script>	
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

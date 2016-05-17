@@ -1,0 +1,36 @@
+/* ----------------- */
+/* ----PORTFOLIO---- */
+
+.categories {
+	margin-bottom: $margin-bottom;
+	h2 {
+		display: inline;
+		margin-right: 20px;
+	}
+	.tags {
+		display: inline-block;
+	}
+}
+
+.thumbs {
+	margin-bottom: $margin-bottom;
+	img {
+		width: 100%;
+		height: auto;
+		background-color: white;
+		height: auto;
+		padding: 3px;
+		border: 1px solid $grey-border;
+	}
+	.box-img {
+		color: $grey;
+		border: 1px solid $grey-border;
+		border-top: none;
+		padding-left: 15px;
+		padding-top: 10px;
+		margin-bottom: 20px;
+		h4 {
+			margin-bottom: -5px;
+		}
+	}
+}
