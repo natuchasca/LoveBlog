@@ -1,0 +1,48 @@
+@media screen and (max-width: 770px) {
+	.menu {
+		display: none;
+	}
+
+	.about-text, .entradas-blog, .form {
+		margin-bottom: $margin-bottom;
+	}
+
+	.aside-xs {
+		padding: 0px 20px;
+	}
+
+	.aside-md {
+		display:none;
+	}
+
+}
+
+@media screen and (max-width: 990px) {
+	.aside-xs {
+		padding: 0px 20px;
+	}
+
+	.aside-md {
+		display:none;
+	}
+
+	/* Iconos BLOG */
+
+	@mixin iconos-blog ($image) {
+		background-image: url($image);
+		background-repeat: no-repeat;
+		background-size: 40px 40px;
+		margin-bottom: $margin-bottom;
+	}
+
+	.entrada1 {@include iconos-blog ("../images/icon1.png");}
+	.entrada2 {@include iconos-blog ("../images/icon2.png");}
+	.entrada3 {@include iconos-blog ("../images/icon3.png");}
+	.entrada4 {@include iconos-blog ("../images/icon4.png");}
+	.entrada5 {@include iconos-blog ("../images/icon5.png");}
+
+
+	/* --------- */
+
+
+}

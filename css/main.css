@@ -74,11 +74,13 @@ aside .content {
   aside .content p {
     margin-bottom: 2px; }
   aside .content img {
-    width: 50px;
+    width: 100%;
+    max-width: 50px;
     height: auto;
     margin: 2px 2px;
     margin: 2px 2px;
-    border: 1px solid #e76434; }
+    border: 1px solid #e76434;
+    display: inline-block; }
 
 /* header */
 .header_area {
@@ -357,41 +359,57 @@ footer {
     .thumbs .box-img h4 {
       margin-bottom: -5px; }
 
-/* Menu XS */
-.navbar-default {
-  background: transparent;
-  border: transparent;
-  color: #e76434; }
+@media screen and (max-width: 770px) {
+  .menu {
+    display: none; }
 
-button.navbar-toggle {
-  background-color: #e76434;
-  color: white;
-  border: none;
-  margin-top: -70px; }
+  .about-text, .entradas-blog, .form {
+    margin-bottom: 50px; }
 
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-top: 1px solid #e76434; }
+  .aside-xs {
+    padding: 0px 20px; }
 
-ul.navbar-nav {
-  color: white; }
+  .aside-md {
+    display: none; } }
+@media screen and (max-width: 990px) {
+  .aside-xs {
+    padding: 0px 20px; }
 
-.navbar-default .navbar-nav > li > a {
-  color: #989898; }
+  .aside-md {
+    display: none; }
 
-.navbar-default .navbar-nav > li {
-  color: #e76434; }
+  /* Iconos BLOG */
+  .entrada1 {
+    background-image: url("../images/icon1.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    margin-bottom: 50px; }
 
-.navbar-default .navbar-nav >
-li > a:hover, .navbar-default .navbar-nav >
-li > a:focus {
-  color: white;
-  background-color: #e76434; }
+  .entrada2 {
+    background-image: url("../images/icon2.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    margin-bottom: 50px; }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #f4ada0; }
+  .entrada3 {
+    background-image: url("../images/icon3.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    margin-bottom: 50px; }
 
+  .entrada4 {
+    background-image: url("../images/icon4.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    margin-bottom: 50px; }
+
+  .entrada5 {
+    background-image: url("../images/icon5.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    margin-bottom: 50px; }
+
+  /* --------- */ }
 /* COLORES 
 naranjo e76434
 naranjo claro f4ada0

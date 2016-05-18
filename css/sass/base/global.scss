@@ -59,11 +59,13 @@ aside {
 			margin-bottom: 2px;
 		}
 		img {
-			width: 50px;
+			width: 100%;
+			max-width: 50px;
 			height: auto;
 			margin: 2px 2px;
 			margin: 2px 2px;
 			border: 1px solid $orange;
+			display: inline-block;
 		}
 	}
 }
